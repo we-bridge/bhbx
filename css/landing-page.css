@@ -20,11 +20,16 @@ h6 {
     font-weight: 400;
 }
 
+.section-heading-spacer {
+    border-width: 2px 0 0;
+    border-color: #5a5a5a;
+}
+
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    background: url(http://placehold.it/800x600) no-repeat center center;
+    background: url('http://placehold.it/800x600?text=+') no-repeat center center;
     background-size: cover;
 }
 
@@ -41,12 +46,6 @@ h6 {
     color: #454545;
     margin: 0;
     font-size: 5em;
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
@@ -84,13 +83,16 @@ h6 {
     padding: 50px 0;
 }
 
+.content-section p {
+    color: #adadad;
+}
+
 .section-heading {
     margin-bottom: 30px;
 }
 
 .footer {
     padding: 50px 0;
-    background-color: #f8f8f8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,4 +105,20 @@ h6 {
 
 .footer-title {
     font-size: 25px;
+}
+
+.content-body {
+    margin-top: 10%;
+}
+
+.title-links {
+    color: #41c7d6;
+    font-size: 20px;
+}
+
+.title-links-spacer {
+    width: 2px;
+    border-width: 25px 0;
+    border-color: #797979;
+    margin: 0 20px 0 20px;
 }
