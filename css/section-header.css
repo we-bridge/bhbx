@@ -1,0 +1,40 @@
+.section-heading-spacer {
+    border-width: 2px 0 0;
+    border-color: #5a5a5a;
+}
+
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('../assets/background.png') no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    font-style: italic;
+    color: #676767;
+    position: relative;
+    padding-top: 20%;
+}
+
+.intro-message > h3 {
+    font-weight: normal;
+}
+
+.intro-message > h1 {
+    color: #454545;
+    margin: 0;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+}
