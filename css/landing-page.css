@@ -59,9 +59,10 @@ h6 {
     margin-top: 10%;
 }
 
-.title-links {
+.title-links a {
     color: #41c7d6;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .title-links-spacer {
@@ -78,4 +79,8 @@ h6 {
 
 .bubble-block {
     position: relative;
+}
+
+.un-current {
+    opacity: 0.5;
 }
