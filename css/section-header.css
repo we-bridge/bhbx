@@ -15,7 +15,7 @@
     font-style: italic;
     color: #676767;
     position: relative;
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 .intro-message > h3 {
@@ -29,6 +29,11 @@
     font-weight: bolder;
 }
 
+.row-logo-links {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -36,5 +41,12 @@
 
     .intro-message > h1 {
         font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .row-logo-links {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
