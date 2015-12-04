@@ -3,6 +3,12 @@
     border-color: #5a5a5a;
 }
 
+.logo-links-spacer {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+}
+
 .intro-header {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -34,6 +40,11 @@
     margin-right: 5%;
 }
 
+.row-logo-links img {
+    max-width: 100%;
+    margin-top: -25px;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -42,11 +53,24 @@
     .intro-message > h1 {
         font-size: 3em;
     }
+
+    .row-logo-links span.title-links {
+        float: none !important; /** Overriding bootstrap pull-left **/
+        margin-top: 10px;
+    }
+
+    .row-logo-links img {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
     .row-logo-links {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    .our-video-box {
+        width: 75%;
     }
 }
