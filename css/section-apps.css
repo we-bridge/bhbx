@@ -1,12 +1,16 @@
 .content-section-apps {
     padding: 50px;
     background-color: black;
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content:flex-end;
     justify-content: flex-end;
 }
 
 .content-section-apps .app-links {
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -17,7 +21,7 @@
 }
 
 .content-section-apps .app-links img {
-    float: right;
+    float: left;
 }
 
 .content-section-apps a {
@@ -29,8 +33,11 @@
     background: #fff;
     color: #000;
     border-radius: 25px;
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: flex-start;
     justify-content: flex-start;
     font-size: 12px;
     font-weight: lighter;
@@ -40,7 +47,7 @@
 }
 
 .app-link-container img {
-    width: 35px;
+    height: 35px;
     margin-right: 10px;
     margin-left: 10px;
     text-align: center;
@@ -57,6 +64,7 @@
     .app-link-container,
     .content-section-apps {
         width: 100%;
+        padding: 10px;
     }
 
     .content-section-apps .site-url {
@@ -64,6 +72,6 @@
     }
 
     .content-section-apps .app-links img {
-        width: 35px;
+        height: 100%;
     }
 }
