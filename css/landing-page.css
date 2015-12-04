@@ -81,6 +81,11 @@ h6 {
     position: relative;
 }
 
+.bubble-block .icon-book {
+    width: 35%;
+    max-width: 100px;
+}
+
 .un-current {
     opacity: 0.5;
 }
