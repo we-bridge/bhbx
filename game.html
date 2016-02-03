@@ -1,14 +1,110 @@
-<html>
-    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <style>
-    	html, body{
-			margin: 0px;
-		}
-    </style>
-    <title>鏈�寮虹溂鍔�</title>	
-    </head>
-    <body>
-		<iframe src="http://play.h5.gamedog.cn/zuiqiangyanli/" width="100%" height="100%" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" id="swfdiv" name="play_game" class="play_game"></iframe>
-    </body>
+<!DOCTYPE HTML>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+<!--<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" />  
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen_402x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen_403x.png" />
+<link rel="apple-touch-startup-image" sizes="1024x748" href="images/splash/splash-screen-ipad-landscape" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)" />
+<link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
+<link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png"   media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)"/>
+<link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png"   media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)"/>
+-->
+<title>真心话大冒险</title>
+
+<link href="game/styles/style.css"     		rel="stylesheet" type="text/css">
+<link href="game/styles/colors/default.css"   rel="stylesheet" type="text/css">
+<link href="game/styles/framework.css" 		rel="stylesheet" type="text/css">
+<link href="game/styles/owl.carousel.css" 	 rel="stylesheet" type="text/css">
+<link href="game/styles/owl.theme.css" 		rel="stylesheet" type="text/css">
+<link href="game/styles/swipebox.css"		 rel="stylesheet" type="text/css">
+<link href="game/styles/colorbox.css"		 rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="game/scripts/jquery.js"></script>
+<script type="text/javascript" src="game/scripts/jqueryui.js"></script>
+<script type="text/javascript" src="game/scripts/owl.carousel.min.js"></script>
+<script type="text/javascript" src="game/scripts/jquery.swipebox.js"></script>
+<script type="text/javascript" src="game/scripts/colorbox.js"></script>
+<script type="text/javascript" src="game/scripts/snap.js"></script>
+<script type="text/javascript" src="game/scripts/contact.js"></script>
+<script type="text/javascript" src="game/scripts/custom.js"></script>
+<script type="text/javascript" src="game/scripts/framework.js"></script>
+<script type="text/javascript" src="game/scripts/framework.launcher.js"></script>
+
+<script type="text/javascript">
+function getNumbers(){
+	var v = document.getElementById("contactEmailField").value;
+	window.localStorage.setItem("zhenxinhua-numbers", v);
+	
+	window.location="/game1/index.html"
+}
+</script>
+
+</head>
+<body>    
+    <div class="container">
+    	<div class="slider-controls" data-snap-ignore="true">                
+			<div>
+				<img src="game/images/general-nature/zxh_title.png" class="responsive-image" alt="img">
+			</div>
+		</div>
+	</div>
+
+    <div id="content" class="page-content">   
+        <div class="content">
+            <div class="content-header" style="margin-bottom:6px; margin-top:14px">
+				<h1 style="font-weight:500; color:#434343;">游戏说明</h1>     
+            </div>            
+            
+            <div class="container" style="margin-bottom:50px">
+                <p style="color:#a29d9d;">1.确认参与人数，按顺序给每个玩家编号<br/>2.输入参与人数，进入游戏<br/>3.点击“开始游戏”，开始抽奖<br/>4.被抽到的编号对应的玩家将接受惩罚，其他玩家则按编号顺序对该玩家提出真心话或大冒险</p>          
+			</div>
+                        
+            <div class="formFieldWrap" align="center">
+                                    <label class="field-title contactEmailField" for="contactEmailField"><h2>请输入参与人数</h2></label>
+                                    <input type="number" name="contactEmailField" value="6" min="2" max="24" step="1" class="contactField requiredField requiredEmailField" id="contactEmailField" style="border:solid 1px #dd5152; border-radius:1px;"/>
+                                </div>
+            
+            <br/>
+            
+            <div align="center">
+                                    <input type="submit" class="zxhbuttonWrap zxhbutton-big zxhinput" value="进入游戏" onClick="getNumbers();" style="border-radius:40px; background-color:#dd5152" "/>
+                                    </div>
+                                    
+                                    <br/>
+                                    
+                                    <br/>
+		</div>
+	</div>
+            
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
