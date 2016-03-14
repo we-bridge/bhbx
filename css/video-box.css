@@ -10,3 +10,45 @@
     color: #fff;
     max-width: 700px;
 }
+
+.intro-video {
+    margin-top: 5%;
+}
+
+.intro-video video {
+    border: 1px solid #ccc;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.intro-message .modal {
+    top: 10%;
+}
+
+.intro-message a {
+    text-decoration: none;
+}
+
+.show-video {
+    position: relative;
+}
+
+button.button-close {
+    background-color: #000;
+    border: medium none;
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    opacity: 0.5;
+    position: absolute;
+    width: 30px;
+    font-style: normal;
+}
+
+@media(max-width: 360px) {
+    button.button-close {
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+    }
+}
