@@ -15,7 +15,8 @@
 }
 
 .content-section-apps .site-url {
-    display: block;
+    display: -webkit-flex;
+    display: flex;
     float: left;
     width: 100%;
 }
